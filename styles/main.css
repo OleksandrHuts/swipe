@@ -9,7 +9,7 @@ body, html {
   height: 100%;
   color: #1A1930;
   font-family: "Prompt", sans-serif;
-  line-height: 1.3888888889;
+  line-height: calc(25/18);
 }
 
 a {
@@ -79,7 +79,7 @@ header .container {
 .btn {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  line-height: 1.375;
+  line-height: calc(22/16);
   border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.4);
   background-color: rgba(255, 255, 255, 0.4);
@@ -89,4 +89,83 @@ header .container {
 }
 .btn:hover, .btn:focus {
   transform: scale(1.2);
-}/*# sourceMappingURL=main.css.map */
+}
+
+.hero {
+  padding: 124px 0 114px;
+  position: relative;
+}
+.hero_image {
+  position: absolute;
+  right: 0;
+  z-index: -1;
+  top: -100px;
+  width: 60%;
+  max-width: 850px;
+}
+.hero_title {
+  font-size: 80px;
+  font-family: "Poppins", sans-serif;
+  line-height: 88px;
+  width: 100%;
+  max-width: 767px;
+  margin-bottom: 60px;
+}
+.hero button {
+  margin-top: 52px;
+  margin-bottom: 150px;
+}
+.hero_link {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  line-height: 25.2px;
+}
+.hero_link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 5.5px;
+  width: 14px;
+  height: 14px;
+  background-color: #EA5959;
+}
+.hero_social_list {
+  position: fixed;
+  background-color: transparent;
+  right: 90px;
+  bottom: 114px;
+  z-index: 1;
+}
+.hero_social_list a {
+  display: inline-block;
+}
+
+.title_description {
+  color: #2D2B5C;
+  font-size: 30px;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+  line-height: 42px;
+}
+
+.button {
+  background: #6259EA;
+  border-radius: 5px;
+  padding: 18px 36px;
+  width: auto;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  line-height: 22.4px;
+}
+
+.social_icon {
+  width: 25px;
+  height: 25px;
+}
