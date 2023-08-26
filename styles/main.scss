@@ -169,4 +169,23 @@
   width: 25px;
   height: 25px;
 }
-  
+.middle_section{
+  background-color: #E7E5FF;
+  position: relative;
+  z-index: -2;
+}
+.middle_section_item.first{
+  max-width: 110px;
+}
+
+.middle_section_item.second{
+  max-width: 140px;
+}
+.middle_section_list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:19%;
+  padding: 66px 0;
+  flex-wrap: wrap;
+}
