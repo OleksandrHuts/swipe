@@ -7,6 +7,9 @@
 body, html {
   width: 100%;
   height: 100%;
+  color: #1A1930;
+  font-family: "Prompt", sans-serif;
+  line-height: 1.3888888889;
 }
 
 a {
@@ -46,6 +49,10 @@ header .container {
 
 .logo-wrapper {
   width: 111px;
+  transition: all 0.3s ease;
+}
+.logo-wrapper:hover, .logo-wrapper:focus {
+  transform: scale(1.2);
 }
 
 .logo-link {
@@ -61,19 +68,17 @@ header .container {
 }
 
 .main-nav_link {
-  color: #1A1930;
-  font-family: "Prompt", sans-serif;
   font-size: 18px;
-  font-weight: 400;
-  line-height: 1.3888888889;
   text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+.main-nav_link:hover, .main-nav_link:focus {
+  font-weight: 700;
 }
 
 .btn {
-  color: #1A1930;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.375;
   border-radius: 5px;
   border: 2px solid rgba(255, 255, 255, 0.4);
