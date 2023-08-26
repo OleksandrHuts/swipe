@@ -22,6 +22,7 @@
     outline: 0;
     border: 0;
     background-color: transparent;
+    cursor: pointer;
   }
   img {
     display: block;
@@ -32,4 +33,53 @@
     width: 90%;
     max-width: 1340px;
     margin: 0 auto;
+    outline: 1px solid tomato;
   }
+
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 36px;
+    
+  }
+  .logo-wrapper {
+    width: 111px;
+  }
+  .logo-link {
+    width: 100%;
+    display: inline-block;
+  }
+  
+  .main-nav_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:24px;
+  }
+
+  .main-nav_link {
+    color: #1A1930;
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: calc(25/18); 
+    text-transform: capitalize;
+  }
+  .btn{
+    color: #1A1930;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(22/16); 
+    border-radius: 5px;
+    border: 2px solid rgba(#fff, 0.40);
+    background-color: rgba(#fff, 0.40);
+    box-shadow: 0px 4px 20px 0px rgba(193, 193, 193, 0.30);
+    padding: 18px 36px;
+    transition: all 0.3s ease;
+    &:hover, &:focus{
+      transform: scale(1.2);
+    }
+  }
+  
