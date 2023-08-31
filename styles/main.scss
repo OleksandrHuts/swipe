@@ -11,7 +11,12 @@
     font-family: $secondaryFontFamily;
     line-height: 22.40px;
 }
-
+@mixin bg-grey($opacity){
+    border-radius: 5px;
+    border: 2px solid rgba(#fff, 0.40);
+    background-color: rgba(#fff, $opacity);
+    box-shadow: 0px 4px 20px 0px rgba(193, 193, 193, 0.30);
+}
 *,
 *::after,
 *::before {
@@ -103,17 +108,14 @@ header .container {
     font-family: $secondaryFontFamily;
     font-size: 16px;
     line-height: calc(22/16);
-    border-radius: 5px;
-    border: 2px solid rgba(#fff, 0.40);
-    background-color: rgba(#fff, 0.40);
-    box-shadow: 0px 4px 20px 0px rgba(193, 193, 193, 0.30);
     padding: 18px 36px;
     transition: all 0.3s ease;
-
+    @include bg-grey(.4);
     &:hover,
     &:focus {
         transform: scale(1.2);
     }
+    
 }
 
 .hero {
@@ -252,12 +254,13 @@ header .container {
     text-transform: uppercase;
 }
 
-.numbers_title {
+.seaction_title {
     color: $secondaryColor;
     font-family: $secondaryFontFamily;
     font-size: 70px;
     line-height: 77px;
     font-weight: 400;
+    max-width: 605px;
 }
 
 .numbers_item {
@@ -320,4 +323,25 @@ header .container {
     font-size: 80px;
     line-height: 112px;
     min-width: 225px;
+}
+.features{
+    display: flex;
+    @include bg-grey(.6);
+    margin-top: 65px;
+}
+.mt25{
+    margin-top: 25px;
+}
+.mt30{
+    margin-top: 30px;
+}
+.features_sublist{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.description_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
