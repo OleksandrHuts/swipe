@@ -328,6 +328,7 @@ header .container {
     display: flex;
     @include bg-grey(.6);
     margin-top: 65px;
+    padding: 45px 0 60px;
 }
 .mt25{
     margin-top: 25px;
@@ -338,10 +339,56 @@ header .container {
 .features_sublist{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 15px;
 }
 .description_heading{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+}
+.features_sublist_item{
+    display: flex;
+    gap: 20px;
+}
+.list_header{
+    font-size: 34px;
+    line-height: 38.5px;
+    font-weight: 400;
+}
+.feature_description{
+    color: $secondaryColor;
+    font-size: 18px;
+    line-height: 25.2px;
+}
+.feature_item{
+    padding: 0 50px;
+    position: relative;
+}
+.description_image{
+    position: absolute;
+    z-index: -1;
+}
+.simple_h > .description_image{
+    top: -20px;
+    left: -60px;
+}
+.customizable_h > .description_image{
+    bottom: -40%;
+    left: 0;
+}
+.stylish_h > .description_image{
+    top: -40%;
+    right: -10%;
+}
+.feature_item:not(:last-child){
+    &:after{
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 2px;
+        background-color: #E7E5FF;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
 }
