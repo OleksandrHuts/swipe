@@ -1,225 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Prompt:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Prompt:wght@400;700&display=swap"
-        rel="stylesheet">
-        
-    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="./assets/fontawesome/css/brands.css">
-    <link rel="stylesheet" href="./assets/fontawesome/css/solid.css">
-    <link rel="stylesheet" href="./styles/main.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/css/brands.css" />
+    <link rel="stylesheet" href="./assets/fontawesome/css/solid.css" />
+    <link rel="stylesheet" href="./styles/main.min.css" />
     <title>Swipe</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="page-wrapper">
-        <header>
-            <div class="container">
-                <div class="logo-wrapper">
-                    <a href="#" class="logo-link">
-                        <img src="./img/logo.svg" alt="logo">
-                    </a>
-                </div>
-                <nav>
-                    <ul class="main-nav_list">
-                        <li class="main-nav-item">
-                            <a href="#" class="main-nav_link">About</a>
-                        </li>
-                        <li class="main-nav-item">
-                            <a href="#" class="main-nav_link">Features</a>
-                        </li>
-                        <li class="main-nav-item">
-                            <a href="#" class="main-nav_link">Pricing</a>
-                        </li>
-                        <li class="main-nav-item">
-                            <a href="#" class="main-nav_link">Team</a>
-                        </li>
-                        <li class="main-nav-item">
-                            <a href="#" class="main-nav_link">FAQ</a>
-                        </li>
-                        <li class="main-nav-item">
-                            <a href="#" class="main-nav_link">Feedback</a>
-                        </li>
-                        <li class="main-nav-item">
-                            <a href="#" class="main-nav_link">Blog</a>
-                        </li>
-                        <li class="main-nav-item">
-                            <a href="#" class="main-nav_link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+      <header>
+        <div class="container">
+          <div class="logo-wrapper">
+            <a href="#" class="logo-link">
+              <img src="./img/logo.svg" alt="logo" />
+            </a>
+          </div>
+          <nav>
+            <ul class="main-nav_list">
+              <li class="main-nav-item">
+                <a href="#" class="main-nav_link">About</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav_link">Features</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav_link">Pricing</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav_link">Team</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav_link">FAQ</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav_link">Feedback</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav_link">Blog</a>
+              </li>
+              <li class="main-nav-item">
+                <a href="#" class="main-nav_link">Contact</a>
+              </li>
+            </ul>
+          </nav>
 
-                <button class="btn" type="button">Buy now</button>
+          <button class="btn" type="button">Buy now</button>
+        </div>
+      </header>
+      <main>
+        <section class="hero">
+          <img class="hero_image" src="./img/bg.png" alt="" />
+          <div class="container">
+            <h1 class="hero_title">Accessible way to start your business</h1>
+            <p class="title_description">Simple. Customizable. Stylish.</p>
+            <button class="button" type="button">Get demo for free</button>
+            <a class="hero_link view_more" href="#">watch full video</a>
+
+            <ul class="hero_social_list">
+              <li>
+                <a href="#">
+                  <svg class="social_icon">
+                    <use xlink:href="./assets/sprite.svg#twitter" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="social_icon">
+                    <use xlink:href="./assets/sprite.svg#instagramm" />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <svg class="social_icon">
+                    <use xlink:href="./assets/sprite.svg#facebook" />
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="middle_section">
+          <div class="container">
+            <div class="middle_section_image">
+              <ul class="middle_section_list">
+                <li class="middle_section_item first">
+                  <img src="./img/logo.svg" />
+                </li>
+                <li class="middle_section_item second">
+                  <img src="./img/webflow.svg" />
+                </li>
+                <li class="middle_section_item first">
+                  <img src="./img/logo.svg" />
+                </li>
+                <li class="middle_section_item second">
+                  <img src="./img/webflow.svg" />
+                </li>
+              </ul>
             </div>
-        </header>
-        <main>
-            <section class="hero">
-                <img class="hero_image" src="./img/bg.png" alt="">
-                <div class="container">
-                    <h1 class="hero_title">
-                        Accessible way to start your business
-                    </h1>
-                    <p class="title_description">
-                        Simple. Customizable. Stylish.
+          </div>
+        </section>
+        <section class="in_numbers">
+          <div class="container">
+            <div class="numbers_heading">
+              <p class="numbers_subtitle">since 2019</p>
+              <h2 class="seaction_title">In numbers</h2>
+            </div>
+            <div class="numbers_image">
+              <img src="./img/not_svg_pyramids.png" alt="smth" />
+            </div>
+            <div class="numbers_content">
+              <ul class="numbers_list">
+                <li class="numbers_item">
+                  <div class="item_text">
+                    <p class="item_title">Happy clients</p>
+                    <p class="item_desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut fringilla interdum aliquet.
                     </p>
-                    <button class="button" type="button">Get demo for free</button>
-                    <a class="hero_link" href="#">watch full video</a>
-
-                    <ul class="hero_social_list">
-                        <li><a href="#">
-                                <svg class="social_icon">
-                                    <use xlink:href="./assets/sprite.svg#twitter" />
-                                </svg>
-                            </a></li>
-                        <li><a href="#">
-                                <svg class="social_icon">
-                                    <use xlink:href="./assets/sprite.svg#instagramm" />
-                                </svg>
-                            </a></li>
-                        <li><a href="#">
-                                <svg class="social_icon">
-                                    <use xlink:href="./assets/sprite.svg#facebook" />
-                                </svg>
-                            </a></li>
-                    </ul>
+                  </div>
+                  <div class="item_count">1000+</div>
+                </li>
+                <li class="numbers_item">
+                  <div class="item_text">
+                    <p class="item_title">Products created</p>
+                    <p class="item_desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut fringilla interdum aliquet.
+                    </p>
+                  </div>
+                  <div class="item_count">20+</div>
+                </li>
+                <li class="numbers_item">
+                  <div class="item_text">
+                    <p class="item_title">Investments received</p>
+                    <p class="item_desc">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ut fringilla interdum aliquet.
+                    </p>
+                  </div>
+                  <div class="item_count">$5M+</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="description">
+          <div class="container">
+            <div class="description_heading">
+              <h2 class="seaction_title">Get to know our main features</h2>
+              <button type="button" class="button">Buy now</button>
+            </div>
+            <ul class="features">
+              <li class="feature_item simple_h">
+                <h3 class="list_header">Simple</h3>
+                <p class="feature_description mt25">
+                  Here you will not find complex technological solutions that
+                  will baffle you.
+                </p>
+                <ul class="features_sublist mt30">
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">
+                      Save your resources on development
+                    </p>
+                  </li>
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">Easy to understand</p>
+                  </li>
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">User friendly</p>
+                  </li>
+                </ul>
+                <div class="description_image">
+                  <img src="./img/box_blue.png" alt="" />
                 </div>
-            </section>
-            <section class="middle_section">
-                <div class="container">
-                    <div class="middle_section_image">
-                        <ul class="middle_section_list">
-                            <li class="middle_section_item first"><img src="./img/logo.svg"></li>
-                            <li class="middle_section_item second"><img src="./img/webflow.svg"></li>
-                            <li class="middle_section_item first"><img src="./img/logo.svg"></li>
-                            <li class="middle_section_item second"><img src="./img/webflow.svg"></li>
-                        </ul>
-                    </div>
+              </li>
+              <li class="feature_item customizable_h">
+                <h3 class="list_header">Customizable</h3>
+                <p class="feature_description mt25">
+                  You can reuse blocks and individual elements to create
+                  something unique on your website.
+                </p>
+                <ul class="features_sublist mt30">
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">
+                      Reuse the sections and create your own style
+                    </p>
+                  </li>
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">Save your time</p>
+                  </li>
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">
+                      Save your resources on development
+                    </p>
+                  </li>
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">Unique design</p>
+                  </li>
+                </ul>
+                <div class="description_image">
+                  <img src="./img/donut_purple.png" alt="" />
                 </div>
-            </section>
-            <section class="in_numbers">
-                <div class="container">
-                    <div class="numbers_heading">
-                        <p class="numbers_subtitle">since 2019</p>
-                        <h2 class="seaction_title">In numbers</h2>
-                    </div>
-                    <div class="numbers_image">
-                        <img src="./img/not_svg_pyramids.png" alt="smth">
-                    </div>
-                    <div class="numbers_content">
-                        <ul class="numbers_list">
-                            <li class="numbers_item">
-                                <div class="item_text">
-                                    <p class="item_title">Happy clients</p>
-                                    <p class="item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                        fringilla interdum aliquet.</p>
-                                </div>
-                                <div class="item_count">1000+</div>
-                            </li>
-                            <li class="numbers_item">
-                                <div class="item_text">
-                                    <p class="item_title">Products created</p>
-                                    <p class="item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                        fringilla interdum aliquet.</p>
-                                </div>
-                                <div class="item_count">20+</div>
-                            </li>
-                            <li class="numbers_item">
-                                <div class="item_text">
-                                    <p class="item_title">Investments received</p>
-                                    <p class="item_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                                        fringilla interdum aliquet.</p>
-                                </div>
-                                <div class="item_count">$5M+</div>
-                            </li>
-                        </ul>
-                    </div>
+              </li>
+              <li class="feature_item stylish_h">
+                <h3 class="list_header">Stylish</h3>
+                <p class="feature_description mt25">
+                  Right and without unnecessary tinsel, just scroll through this
+                  template and you will see.
+                </p>
+                <ul class="features_sublist mt30">
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">Unique design</p>
+                  </li>
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">
+                      Unforgettable 3D elements and trendy glass-effect
+                    </p>
+                  </li>
+                  <li class="features_sublist_item">
+                    <span class="icon_wrapper"
+                      ><i class="fa-brands fa-dribbble"></i
+                    ></span>
+                    <p class="features_sublist_content">
+                      Design that drives an industry
+                    </p>
+                  </li>
+                </ul>
+                <div class="description_image">
+                  <img src="./img/cilindr_yellow.png" alt="" />
                 </div>
-            </section>
-            <section class="description">
-                <div class="container">
-                    <div class="description_heading">
-                        <h2 class="seaction_title">Get to know our main features</h2>
-                        <button type="button" class="button">Buy now</button>
-                    </div>
-                    <ul class="features">
-                        <li class="feature_item simple_h">
-                            <h3 class="list_header">Simple</h3>
-                            <p class="feature_description mt25">Here you will not find complex technological solutions that
-                                will baffle you.</p>
-                            <ul class="features_sublist mt30">
-                                <li class="features_sublist_item">
-                                    <span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Save your resources on development</p>
-                                </li>
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Easy to understand</p>
-                                </li>
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">User friendly</p>
-                                </li>
-                            </ul>
-                            <div class="description_image">
-                                <img src="./img/box_blue.png" alt="">
-                            </div>
-                        </li>
-                        <li class="feature_item customizable_h">
-                            <h3 class="list_header">Customizable</h3>
-                            <p class="feature_description mt25">You can reuse blocks and individual elements to create
-                                something unique on your website.</p>
-                            <ul class="features_sublist mt30">
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Reuse the sections and create your own style</p>
-                                </li>
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Save your time</p>
-                                </li>
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Save your resources on development</p>
-                                </li>
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Unique design</p>
-                                </li>
-                            </ul>
-                            <div class="description_image">
-                                <img src="./img/donut_purple.png" alt="">
-                            </div>
-                        </li>
-                        <li class="feature_item stylish_h">
-                            <h3 class="list_header">Stylish</h3>
-                            <p class="feature_description mt25">Right and without unnecessary tinsel, just scroll through
-                                this
-                                template and you will see.</p>
-                            <ul class="features_sublist mt30">
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Unique design</p>
-                                </li>
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Unforgettable 3D elements and trendy
-                                        glass-effect
-                                    </p>
-                                </li>
-                                <li class="features_sublist_item"><span class="icon_wrapper"><i class="fa-brands fa-dribbble"></i></span>
-                                    <p class="features_sublist_content">Design that drives an industry</p>
-                                </li>
-                            </ul>
-                            <div class="description_image">
-                                <img src="./img/cilindr_yellow.png" alt="">
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-            </section>
-        </main>
-        <footer>
-
-        </footer>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="tech">
+          <div class="tech_container">
+            <div class="container">
+              <div class="understand">
+                <h2 class="tech_title seaction_title">
+                  No need to know any technologies
+                </h2>
+              </div>
+              <div class="tech_content">
+                <h3 class="tech_content_title seaction_title">
+                  Easy to understand
+                </h3>
+                <p class="tech_content_p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  fringilla interdum aliquet. Nulla viverra quam sit amet lacus
+                  accumsan, ac interdum nibh eleifend. Aliquam at elit at diam
+                  congue aliquam at eu felis. Vestibulum sed massa bibendum,
+                  porta ex consectetur, commodo tellus.
+                </p>
+                <p class="tech_content_p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  fringilla interdum aliquet. Nulla viverra quam sit amet lacus
+                  accumsan, ac interdum nibh eleifend. Aliquam at elit at diam
+                  congue aliquam at eu felis.
+                </p>
+                <a class="tech_link view_more" href="#">learn more</a>
+              </div>
+            </div>
+          </div>
+          <div class="tech_container">
+            <div class="container">
+              <div class="understand">
+                <h2 class="tech_title seaction_title">Reuse the sections</h2>
+              </div>
+              <div class="tech_content">
+                <h3 class="tech_content_title seaction_title">
+                  Easy to understand
+                </h3>
+                <p class="tech_content_p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  fringilla interdum aliquet. Nulla viverra quam sit amet lacus
+                  accumsan, ac interdum nibh eleifend. Aliquam at elit at diam
+                  congue aliquam at eu felis. Vestibulum sed massa bibendum,
+                  porta ex consectetur, commodo tellus.
+                </p>
+                <p class="tech_content_p">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  fringilla interdum aliquet. Nulla viverra quam sit amet lacus
+                  accumsan, ac interdum nibh eleifend. Aliquam at elit at diam
+                  congue aliquam at eu felis.
+                </p>
+                <a class="tech_link view_more" href="#">learn more</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer></footer>
     </div>
-</body>
-
+  </body>
 </html>
