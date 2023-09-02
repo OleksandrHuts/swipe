@@ -471,6 +471,9 @@ header .container {
   max-width: 640px;
   position: relative;
 }
+.plans_list .item_wrapper:hover {
+  border: 2px solid #6259EA;
+}
 .plans_list .item_wrapper .value_button {
   padding: 5px 25px;
   border-radius: 5px;

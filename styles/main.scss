@@ -501,6 +501,9 @@ header .container {
     max-width: 640px;
     position: relative;
 
+    &:hover {
+      border: 2px solid #6259EA;;
+    }
 
     .value_button {
       padding: 5px 25px;
